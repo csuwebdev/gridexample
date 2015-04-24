@@ -1,0 +1,94 @@
+.rightHeader {
+  background: blue;
+  height: 200px;
+}
+.leftHeader {
+  background: red;
+  height: 200px;
+  display: block;
+}
+.body{
+  height: 200px;
+}
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.leftBody {
+  background: #60FF60;
+  height: 400px;
+}
+
+.leftBottom {
+  background: #333333;
+  height: 200px;
+}
+.textBox{
+  background: #000000;
+  color: white;
+  height: 200px;
+}
+.rightBottom {
+  background: #333333;
+  height: 200px;
+}
+.rightBody{
+  background: #FF0000;
+  height: 400px;
+}
+@media screen and (max-width: 768px) {
+  .leftHeader {
+    display: none;
+  }
+}
+.left{
+ background: #222;
+ color: white;
+}
+.leftMiddle{
+ background: #DDD;
+}
+.right{
+color: white;
+ background: #222;
+}
+.rightMiddle{
+ background: #DDD;
+}
+.flexContainer{
+    margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space between;
+	height: 40px;
+	background: #AA00AA;
+}
+
+.flexItem{
+	width: 100px;
+	background: #AAA;
+	padding: 2px 3px;
+	height: 25px;
+	text-align: center;
+	margin: 5px;
+	transition-property: background;
+	transition-duration: .6s;
+	cursor: pointer;
+}
+.flexItem:hover{
+  background: #333;
+}
+.flexItem a{
+	font-size: 150%;
+}
+.pageTwoWrapper{
+  position: absolute;
+  display: none;
+  right: 3000px;
+}
+
+.pageOneWrapper{
+  position: absolute;
+  display: none;
+  right: 0px;
+}
