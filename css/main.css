@@ -81,14 +81,3 @@ color: white;
 .flexItem a{
 	font-size: 150%;
 }
-.pageTwoWrapper{
-  position: absolute;
-  display: none;
-  right: 3000px;
-}
-
-.pageOneWrapper{
-  position: absolute;
-  display: none;
-  right: 0px;
-}
